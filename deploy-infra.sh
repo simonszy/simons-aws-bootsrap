@@ -32,6 +32,7 @@ aws cloudformation deploy \
   --parameter-overrides \
     CodePipelineBucket=$CODEPIPELINE_BUCKET \
     CloudFormationBucket=$CFN_BUCKET
+    
 
 # Package up CloudFormation templates into an S3 bucket
 echo -e "\n\n=========== Packaging main.yml ==========="
